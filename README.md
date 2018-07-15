@@ -13,4 +13,5 @@ git commit -a -m "提交的描述信息"    //直接将文件放在暂存区并�
 git remote add origin https://github.com/yucong1/demo1	  //与远程仓库建立联系并起名字为origin   
 git remote -v	//查看与远程仓库建立的连接  
 git push origin master	   //将本地仓库master主分支推送到远程仓库   
-
+git pull origin master     //将远程仓库拉到本地master主分支  
+git clone https://github.com/yucong1/demo    //将远程仓库clone到本地
